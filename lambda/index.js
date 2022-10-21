@@ -10,7 +10,7 @@ const LaunchRequestHandler = {
         return Alexa.getRequestType(handlerInput.requestEnvelope) === 'LaunchRequest';
     },
     handle(handlerInput) {
-        const speakOutput = 'Hola, bienvenida a My Future Self';
+        const speakOutput = 'Hola, bienvenida a My Future Self. ¿Qué tipo de meta quieres ingresar ahora: dime fitness, laboral o estudio?';
 
         return handlerInput.responseBuilder
             .speak(speakOutput)
