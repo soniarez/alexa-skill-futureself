@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "change me",
+      "invocationName": "my future self",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -16,25 +16,58 @@
           "samples": []
         },
         {
-          "name": "HelloWorldIntent",
-          "slots": [],
-          "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
-            "say hello world",
-            "say hello"
-          ]
-        },
-        {
           "name": "AMAZON.NavigateHomeIntent",
           "samples": []
+        },
+        {
+          "name": "categoryIntent",
+          "slots": [
+            {
+              "name": "bienestar",
+              "type": "categories"
+            },
+            {
+              "name": "laboral",
+              "type": "categories"
+            },
+            {
+              "name": "formacion",
+              "type": "categories"
+            }
+          ],
+          "samples": [
+            "quiero agregar una meta de {formacion}",
+            "{formacion}",
+            "quiero agregar una meta {laboral}",
+            "{laboral}",
+            "quiero agregar una meta de {bienestar}",
+            "{bienestar}"
+          ]
         }
       ],
-      "types": []
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "formación"
+              }
+            },
+            {
+              "name": {
+                "value": "laboral"
+              }
+            },
+            {
+              "name": {
+                "value": "bienestar"
+              }
+            }
+          ],
+          "name": "categories"
+        }
+      ]
     }
   },
-  "version": "1"
+  "version": "10"
 }

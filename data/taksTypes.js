@@ -13,7 +13,7 @@
     },
     {
         "id": "3",
-        "category": "formación",
+        "category": "educación",
         "phrase": "Puedes ingresar una meta enfocada a mejorar tus hábitos de estudio, por ejemplo: establecer horarios destinados a estudiar.",
         "url": ""
     }
