@@ -16,5 +16,11 @@
         "category": "formación",
         "phrase": "Puedes ingresar una meta enfocada a mejorar tus hábitos de estudio, por ejemplo: establecer horarios destinados a estudiar.",
         "url": ""
+    },
+    {
+        "id": "4",
+        "category": "fitness",
+        "phrase": "Puedes ingresar una meta enfocada a mejorar tu condición física, por ejemplo: establecer rutina de ejercicios.",
+        "url": ""
     }
 ]
